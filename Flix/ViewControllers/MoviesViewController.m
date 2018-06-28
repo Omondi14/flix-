@@ -8,6 +8,7 @@
 
 #import "MoviesViewController.h"
 #import "MovieCell.h"
+#import "UIImageView+AFNetworking.h"
 
 @interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>  
 
@@ -78,6 +79,10 @@
     NSString *fullPosterURLString = [baseURLString stringByAppendingString:posterURLString];
     
     NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
+    // set posterView image to nil before the new image loads
+    cell.posterView.image = nil;
+    // method to set image with url comes from importing the AFNetworking header file
+    [cell.posterView setImageWithURL:posterURL];
     
 //      cell.textLabel.text  = movie[@"title"];
     
