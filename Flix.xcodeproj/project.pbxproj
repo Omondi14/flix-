@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		267515B220E59784005C08FB /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267515B120E59784005C08FB /* DetailsViewController.m */; };
 		269E5F3420E40A12005B848E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E5F3320E40A12005B848E /* AppDelegate.m */; };
 		269E5F3A20E40A12005B848E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E5F3820E40A12005B848E /* Main.storyboard */; };
 		269E5F3C20E40A14005B848E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E5F3B20E40A14005B848E /* Assets.xcassets */; };
@@ -40,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		06FFA6C350FAA488905A56C7 /* Pods-FlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlixUITests/Pods-FlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		267515B020E59784005C08FB /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		267515B120E59784005C08FB /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 		269E5F2F20E40A12005B848E /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269E5F3220E40A12005B848E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		269E5F3320E40A12005B848E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 			children = (
 				269E5FA220E45E1B005B848E /* MoviesViewController.h */,
 				269E5FA320E45E1B005B848E /* MoviesViewController.m */,
+				267515B020E59784005C08FB /* DetailsViewController.h */,
+				267515B120E59784005C08FB /* DetailsViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -392,6 +397,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				269E5F4220E40A14005B848E /* main.m in Sources */,
+				267515B220E59784005C08FB /* DetailsViewController.m in Sources */,
 				269E5F3420E40A12005B848E /* AppDelegate.m in Sources */,
 				269E5FAA20E5769F005B848E /* MovieCell.m in Sources */,
 				269E5FA420E45E1B005B848E /* MoviesViewController.m in Sources */,
