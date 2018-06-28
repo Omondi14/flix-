@@ -15,6 +15,7 @@
 		269E5F4C20E40A14005B848E /* FlixTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E5F4B20E40A14005B848E /* FlixTests.m */; };
 		269E5F5720E40A14005B848E /* FlixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E5F5620E40A14005B848E /* FlixUITests.m */; };
 		269E5FA420E45E1B005B848E /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E5FA320E45E1B005B848E /* MoviesViewController.m */; };
+		269E5FAA20E5769F005B848E /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E5FA920E5769F005B848E /* MovieCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		269E5F5820E40A14005B848E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E5FA220E45E1B005B848E /* MoviesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesViewController.h; sourceTree = "<group>"; };
 		269E5FA320E45E1B005B848E /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
+		269E5FA820E5769F005B848E /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
+		269E5FA920E5769F005B848E /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 		269E5FA520E461B2005B848E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				269E5FA820E5769F005B848E /* MovieCell.h */,
+				269E5FA920E5769F005B848E /* MovieCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			files = (
 				269E5F4220E40A14005B848E /* main.m in Sources */,
 				269E5F3420E40A12005B848E /* AppDelegate.m in Sources */,
+				269E5FAA20E5769F005B848E /* MovieCell.m in Sources */,
 				269E5FA420E45E1B005B848E /* MoviesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
