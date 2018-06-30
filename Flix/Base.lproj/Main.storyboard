@@ -83,7 +83,7 @@
         <scene sceneID="FJS-KA-IXi">
             <objects>
                 <navigationController id="6TA-1S-Ttf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Superhero" id="rlu-J5-gzC"/>
+                    <tabBarItem key="tabBarItem" title="Superhero" image="superhero_tabbar_item" id="rlu-J5-gzC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yI6-6C-9Sl">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -146,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FgK-Zz-dzt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="902" y="2221"/>
+            <point key="canvasLocation" x="1801" y="1498"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xt4-eO-3hM">
@@ -230,7 +230,7 @@
         <scene sceneID="eVq-qD-pYm">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="C1Y-wh-SMr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing" id="k7E-aI-rhZ"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" image="play_movie_3-512_small" id="k7E-aI-rhZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ypi-Zp-txI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -246,7 +246,11 @@
             <point key="canvasLocation" x="34" y="779"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="play_movie_3-512_small" width="20" height="20"/>
+        <image name="superhero_tabbar_item" width="21" height="23"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="WPJ-QE-U1r"/>
+        <segue reference="GSw-tB-nKT"/>
     </inferredMetricsTieBreakers>
 </document>

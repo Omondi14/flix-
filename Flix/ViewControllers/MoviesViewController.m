@@ -52,16 +52,8 @@
         else {
             NSDictionary *dataDictionary = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             
-            //prints the received JSON to the console
-            NSLog(@"%@", dataDictionary);
-            
             // stores the array of movie objects from the JSON above
             self.movies = dataDictionary[@"results"];
-            
-            // iterate through each movie in the movies array
-            for (NSDictionary *movie in self.movies) {
-                NSLog(@"%@", movie[@"title"]);
-            }
             
             [self.tableView reloadData];
             
